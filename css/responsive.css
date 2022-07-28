@@ -1,0 +1,20 @@
+
+@media (max-width:768px) {
+    .w-md-100{
+        width: 100% !important;
+    } 
+
+    #brands{
+        display: none;
+    }
+    .course-md{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width:576px) {
+    .w-md-100{
+        width: 100% !important;
+    } 
+}

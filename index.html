@@ -32,10 +32,12 @@
     <nav class="navbar navbar-expand-lg bg-light ">
       <div class="container">
         <a class="navbar-brand" href="#">Navbar</a>
+       
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+       
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -54,15 +56,21 @@
               <a class="nav-link" href="#">About</a>
             </li>
 
-
+           
           </ul>
-
-          <a class="nav-link  btn-transparent" href="#">registar</a>
+        
+          <div class="registar">
+            <a class="nav-link  btn-transparent" href="#">registar</a>
+          </div>
+          
 
 
 
         </div>
+       
+        
       </div>
+     
     </nav>
 
     <!-- =======================
@@ -88,7 +96,7 @@
                 <div class="content">
                   <h1>Get Started Digital Learning</h1>
              
-                  <p class="text-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                  <p class="text-white d-none">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                  </div>
                  <button class="btn-main mt-3" type="button">Get Started</button>
               </div>
@@ -146,7 +154,7 @@
   <main class="container">
     <section id="courses">
       <div class="caption">
-        <div class="w-50 m-auto py-5">
+        <div class="  w-50 m-auto py-5 w-md-100">
           <h2 class="title text-center">Discover Our Popular Courses</h2>
           <p class="text-center">It is a long established fact that a reader will be distracted by the readable content
             of
@@ -155,18 +163,51 @@
       </div>
       <!-- all courses -->
       <div class="row gx-5">
-        <div class="col-lg-6 col-md-12 d-flex m-auto  shadow-lg p-4 rounded-2 align-items-center">
+       
+        <div class="col-lg-6 col-md-12 d-flex m-auto  shadow-lg p-4 rounded-2 align-items-center course-md">
           <img class="img-fluid" src="./images/course/course-1.png" alt="">
-          <div class="content  p-2 ">
+          <div class="content  ps-2 ">
             <h4>Fundamental Of UI/UX Design</h4>
             <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
             <h6>Price : 20$</h6>
           </div>
         </div>
-        <div class="col-lg-6 col-md-12 d-flex m-auto  shadow-lg p-4 rounded-2 align-items-center">
+        <div class="col-lg-6 col-md-12 d-flex m-auto  shadow-lg p-4 rounded-2 align-items-center course-md">
           <img class="img-fluid" src="./images/course/course-2.png" alt="">
           <div class="content  ps-2 ">
-            <h4>Fundamental Of UI/UX Design</h4>
+            <h4>Javascript Basic to advanced</h4>
+            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+            <h6>Price : 20$</h6>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 d-flex m-auto  shadow-lg p-4 rounded-2 align-items-center course-md">
+          <img class="img-fluid" src="./images/course/course-3.png" alt="">
+          <div class="content  ps-2 ">
+            <h4>Fullstack Web Development</h4>
+            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+            <h6>Price : 20$</h6>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 d-flex d-sm-none m-auto  shadow-lg p-4 rounded-2 align-items-center course-md">
+          <img class="img-fluid" src="./images/course/course-4.png" alt="">
+          <div class="content  ps-2 ">
+            <h4>Digital Marketing</h4>
+            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+            <h6>Price : 20$</h6>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 d-flex d-sm-none m-auto  shadow-lg p-4 rounded-2 align-items-center course-md">
+          <img class="img-fluid" src="./images/course/course-5.png" alt="">
+          <div class="content  ps-2 ">
+            <h4>Photography Basic Rules</h4>
+            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+            <h6>Price : 20$</h6>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 d-flex d-sm-none m-auto  shadow-lg p-4 rounded-2 align-items-center course-md">
+          <img class="img-fluid" src="./images/course/course-6.png" alt="">
+          <div class="content  ps-2 ">
+            <h4>Motion Graphics</h4>
             <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
             <h6>Price : 20$</h6>
           </div>
@@ -191,7 +232,7 @@
         <div class="col-lg-6 ">
           <img class="img-fluid" src="./images/working.png" alt="">
         </div>
-        <div class="col-lg-6 gy-5 justify-content-center align-items-center d-flex">
+        <div class="col-lg-6    gy-5 justify-content-center align-items-center d-flex">
           <div class="content">
             <h2 class="title  text-left pb-3">Explore The elearning Institute</h2>
             <p class="lh-lg">There are many variations of passages of Lorem Ipsum available, but the majority have
@@ -253,7 +294,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6 ">
             <div class="card">
               <img src="./images/student/student-1.png" class="card-img-top" alt="...">
               <div class="px-3 pt-1">
@@ -265,7 +306,7 @@
 
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3  col-sm-6">
             <div class="card">
               <img src="./images/student/student-2.png" class="card-img-top" alt="...">
               <div class="px-3 pt-1">
@@ -277,7 +318,7 @@
 
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3  col-sm-6">
             <div class="card">
               <img src="./images/student/student-3.png" class="card-img-top" alt="...">
               <div class="px-3 pt-1">
@@ -289,7 +330,7 @@
 
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3  col-sm-6">
             <div class="card">
               <img src="./images/student/student-4.png" class="card-img-top" alt="...">
               <div class="px-3 pt-1">
@@ -406,7 +447,7 @@
     </section>
     <!-- subscriber brands -->
     <section id="brands">
-      <div class="row d-lg-flex d-md-none my-4">
+      <div class="row d-flex d-md-none  my-4">
         <div class="col-lg-12">
           <div class=" m-auto py-5">
             <h2 class="title text-center">Trusted by over 800+ companies</h2>
