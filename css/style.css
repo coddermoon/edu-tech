@@ -65,3 +65,6 @@ p{
 #about{
     background:  #F4FAFD;
 }
+#subscribtion{
+    background: var(--main-color);
+}
