@@ -68,3 +68,7 @@ p{
 #subscribtion{
     background: var(--main-color);
 }
+
+.companies img{
+    width: 120px;
+}
