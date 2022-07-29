@@ -78,3 +78,17 @@ p{
 .companies img{
     width: 120px;
 }
+
+.feedback-card{
+    position: relative;
+}
+
+  
+
+.review {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -76px;
+    right: 41%;
+}
